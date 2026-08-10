@@ -1,6 +1,6 @@
 # ShadowHunter -  Keystroke Monitoring Tool
 
-> ** Educational Purpose Only**  
+> Educational Purpose Only  
 > This tool is developed strictly for learning cybersecurity concepts, red team techniques, and defensive awareness.  
 > **Do not use this tool on any system without explicit permission.** Unauthorized use is illegal.
 
