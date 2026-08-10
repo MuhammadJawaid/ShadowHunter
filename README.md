@@ -29,15 +29,15 @@
 
 1. Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/ShadowHunter.git
+git clone https://github.com/MuhammadJawaid/ShadowHunter.git
 
 cd ShadowHunter
 
-Install dependencies:
+2. Install dependencies:
 
-Bashpip install -r requirements.txt
+pip install -r requirements.txt
 
-Open  and update these values:
+3. Open shadowhuter.py and update these values:
 
 PythonEMAIL_ADDRESS = "your_email@gmail.com"
 
@@ -45,14 +45,11 @@ EMAIL_PASSWORD = "your_16_char_app_password"
 
 RECIPIENT_EMAIL = "your_email@gmail.com"
 
-
-Run the tool:
+4. Run the tool:
 
 Bashpython shadowhunter.py
 
-Creating Executable (.exe)
-
-Bash
+## Creating Executable (.exe)
 
 pip install pyinstaller
 
@@ -60,14 +57,13 @@ pyinstaller --onefile --noconsole --name "WindowsHostService" shadowhunter.py
 
 The .exe will be generated in the dist folder.
 
-How to Stop the Tool
+## How to Stop the Tool
 
 Open Task Manager → Details tab → End WindowsHostService.exe
 
 Or restart the computer
 
-
-Disclaimer
+## Disclaimer
 
 This project is created only for educational and demonstration purposes as part of academic learning.
 The developer is not responsible for any misuse of this tool.
