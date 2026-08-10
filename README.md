@@ -45,9 +45,11 @@ EMAIL_PASSWORD = "your_16_char_app_password"
 
 RECIPIENT_EMAIL = "your_email@gmail.com"
 
+Note: Use Gmail App Password (not your normal password)
+
 4. Run the tool:
 
-Bashpython shadowhunter.py
+python shadowhunter.py
 
 ## Creating Executable (.exe)
 
